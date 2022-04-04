@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-div {
+/* div {
   @apply border border-rose-300
-}
+} */
