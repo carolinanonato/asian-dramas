@@ -14,7 +14,9 @@ const ProjectSnippet = (props: ProjectSnippetInterface) => {
    return ( 
    <div className='flex gap-4 bg-slate-100'>
       <div className='relative w-32 h-18'> 
-         <Image className="w-32 h-18" src={props.img} alt="japan" layout="fill"/>
+      <Link href={props.linkUrl}>
+      <Image className="w-32 h-18 cursor-pointer" src={props.img} alt="japan" layout="fill"/>
+       </Link> 
          </div>
      <div className='w-72'>
         <Link href={props.linkUrl}>
