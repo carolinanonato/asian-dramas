@@ -21,7 +21,7 @@ const Home: NextPage = () => {
   projectMetadataArray.push(
     {
     title: 'South Korea',
-    desc: '♥ Saranghae ♥ Kdramas are so popular nowadays, do you know which to watch?',
+    desc: 'Saranghae ♥ Kdramas are popular, do you know which to watch?',
     linkUrl: '/southkorea',
     img: '/southkorea.jpg'
     }
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
   projectMetadataArray.push(
     {
     title: 'China',
-    desc: 'Gege... ',
+    desc: 'Gege, let me show you the coolest chinese dramas!',
     linkUrl: '/japan',
     img: '/china.jpg'
     }
@@ -48,7 +48,7 @@ for (let i = 0; i < projectMetadataArray.length; i++) {
   return (
    <div>
      <Intro/>
-     <div className='mt-4 flex flex-col gap-2 bg-slate-100'>    {ProjectSnippetElements}     </div>
+     <div className='mt-4 flex flex-col gap-2 '>    {ProjectSnippetElements}     </div>
    </div>
   )
   

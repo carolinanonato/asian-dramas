@@ -12,15 +12,15 @@ export interface ProjectSnippetInterface {
 const ProjectSnippet = (props: ProjectSnippetInterface) => {
 
    return ( 
-   <div className='flex gap-4'>
+   <div className='flex gap-4 bg-slate-100'>
       <div className='relative w-32 h-18'> 
-         <Image src={props.img} alt="japan" layout="fill"/>
+         <Image className="w-32 h-18" src={props.img} alt="japan" layout="fill"/>
          </div>
-     <div className='my-auto'>
+     <div className='w-72'>
         <Link href={props.linkUrl}>
        <a href={"/"} className="font-bold underline hover:text-indigo-600">{props.title} </a>
        </Link>
-      <div className="">{props.desc}</div>
+      <div className="p-1">{props.desc}</div>
       </div>
   
     </div>
