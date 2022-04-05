@@ -31,7 +31,7 @@ const Home: NextPage = () => {
     {
     title: 'China',
     desc: 'Gege, let me show you the coolest chinese dramas!',
-    linkUrl: '/japan',
+    linkUrl: '/china',
     img: '/china.jpg'
     }
   )
