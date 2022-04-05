@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 
 import Intro from '../components/Intro'
 
-import ProjectSnippet, {ProjectSnippetInterface} from '../components/project_snippet'
+import ProjectSnippet from '../components/project_snippet'
 
 
 const Home: NextPage = () => {

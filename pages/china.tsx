@@ -40,7 +40,7 @@ const Japan: NextPage = () => {
            <Image src='/kingsavatar.png' alt="japan" layout="fill"/>
         
              </div>
-             <div className=' text-violet-900 font-bold uppercase mb-8'>The King's Avatar</div>
+             <div className=' text-violet-900 font-bold uppercase mb-8'>The Kings Avatar</div>
        </div>
     <div className='flex justify-between	 '>
           
