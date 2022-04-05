@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   projectMetadataArray.push(
     {
     title: 'Japan',
-    desc: 'Nihongo Wakarimasu? The best selection of Japanese doramas.',
+    desc: 'Nihongo wakarimasu? The best selection of Japanese doramas.',
     linkUrl: '/japan',
     img: '/japan.jpg'
     }
